@@ -130,7 +130,7 @@ body {
   .team-item {
     background-color: #FFFFFF;
   }
-  
+
   .nav-link:hover,
   .nav-link:focus,
   .contacts-link:hover,
@@ -147,4 +147,9 @@ body {
     color: #f4f4fd;
   }
 
+  .page-footer {
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+  }
   
