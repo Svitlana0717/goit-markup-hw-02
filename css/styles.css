@@ -77,6 +77,8 @@ body {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer
+    font-weight: 500;
+    line-height: 1.5;
   }
 
   .button-link:hover {
