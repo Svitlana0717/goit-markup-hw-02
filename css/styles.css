@@ -64,10 +64,11 @@ body {
 
   .section-hero {
     font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 56px;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
   }
 
   .btn {
@@ -97,26 +98,36 @@ body {
 
   .section-service {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
   }
 
   .section-text {
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
   }
 
+  .team {
+    background-color: #F4F4FD;
+  }
   .section-team {
     font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+
   }
 
   .nav-link:hover,
