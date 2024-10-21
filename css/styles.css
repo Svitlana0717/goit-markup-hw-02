@@ -79,16 +79,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color: #4D5AE5 ;
+    cursor: pointer;
   }
 
-  .btn:hover {
-    color:  #404BBF;
-  }
-
-  .btn:focus {
- color:  #404BBF;
-  }
-
+    .btn:hover,
+    :focus {
+      background-color: #404BBF;
+    }
 
 
   .service {
@@ -132,6 +130,7 @@ body {
   .team-item {
     background-color: #FFFFFF;
   }
+  
   .nav-link:hover,
   .nav-link:focus,
   .contacts-link:hover,
@@ -139,5 +138,13 @@ body {
     color: #404bbf;
   }
   
+  .section-footer {
+    ont-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+  }
 
   
