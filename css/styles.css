@@ -15,13 +15,13 @@ body {
   }
   
   .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color:  #4d5ae5;
   }
   
   .header-logo .logo-part {
@@ -50,9 +50,16 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
   }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .contacts-link:hover,
+  .contacts-link:focus {
+  color: #404bbf;
+}
   
   .hero {
-    background: #2e2f42;
+    background-color: #2e2f42;
   }
 
   .section-hero {
@@ -69,7 +76,18 @@ body {
     font-size: 16px;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer
   }
+
+  .button-link:hover {
+    color:  #404BBF;
+  }
+
+  .button-link:focus {
+ color:  #404BBF;
+  }
+
+
 
   .service {
     background: #f4f4fd;
@@ -92,6 +110,11 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
   }
 
   .nav-link:hover,
@@ -104,3 +127,5 @@ body {
   .page-footer {
     background-color: #2e2f42;
   }
+
+  
